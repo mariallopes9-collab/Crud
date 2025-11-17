@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrados</title>
+    <link rel="stylesheet" href="../styles/get.css">
+    <link rel="icon" href="img/Design sem nome.png">
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+        <p>Floré</p>
+        <a href="../pages/cadastrados.html">GET</a>
+        <a href="../pages/put.html">PUT</a>
+        <a href="../pages/delete.html">DELETE</a>
+        <a href="../pages/cadastro.html">POST</a>
+    </header>
+        <h1>Cadastrados</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Id:</td>
+                    <td>Nome:</td>
+                    <td>Sobrenome:</td>
+                    <td>CPF:</td>
+                    <td>Email:</td>
+                    <td>Senha:</td>
+                    <td>Rua:</td>
+                    <td>CEP:</td>
+                    <td>Cidade:</td>
+                    <td>Estado:</td>
+                    <td>Telefone:</td>
+                </tr>
+            </thead>
+            <tbody id="tabela-corpo"></tbody>
+        </table>
+        <p id="mensagem-vazia" style="display:none; font-size:18px; color:#555; margin-top:10px; text-align:center;">
+                Não existe nenhum cadastro.
+        </p>
+    <script src="../script/get.js"></script>
+</body>
+</html>

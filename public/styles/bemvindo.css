@@ -1,0 +1,40 @@
+body {
+    background-image: url(../img/flores.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    font-family: "Mrs Saint Delafield", cursive;
+    color: antiquewhite;
+    font-size: 140px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: antiquewhite;
+    font-weight: 150;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    width: 420px;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgba(250, 235, 215, 0.438);
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 400;
+}

@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url('../img/fundogeral.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #3a3a3a;
+}
+
+
+header {
+    background-color: rgba(226, 169, 63, 0.85);
+    color: #fff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header p {
+    margin: 0;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: #ffeaea;
+    text-decoration: underline;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Mrs Saint Delafield', cursive;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(255,255,255,0.7);
+}
+
+.flores {
+    text-align: center;
+    margin: 60px auto;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.flores h1 {
+    color: #af7325;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.flores hr {
+    width: 100px;
+    height: 3px;
+    background-color: #f0b05d;
+    border: none;
+    margin: 10px auto 30px;
+    border-radius: 5px;
+}
+
+.flores img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.flores img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+
+footer {
+    background-color: rgba(226, 169, 63, 0.85);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 40px;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+}
+

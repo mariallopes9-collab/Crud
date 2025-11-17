@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUT</title>
+    <link rel="stylesheet" href="../styles/put.css">
+    <link rel="icon" href="img/Design sem nome.png">
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p>Floré</p>
+        <a href="../pages/cadastrados.html">GET</a>
+        <a href="../pages/put.html">PUT</a>
+        <a href="../pages/delete.html">DELETE</a>
+        <a href="../pages/cadastro.html">POST</a>
+    </header>
+    <center>
+        <h1>PUT</h1>
+        <form>
+            <label>ID:</label>
+            <input type="text" id="identificador" disabled>
+            <br><br>
+            <label>CPF:</label>
+            <input type="text" id="identificadorCPF">
+            <br><br>
+            <label>Nome:</label>
+            <input type="text" id="nomeAtualizar">
+            <br><br>
+            <label>Sobrenome:</label>
+            <input type="text" id="sobrenomeAtualizar">
+            <br><br>
+            <label>Email:</label>
+            <input type="text" id="emailAtualizar">
+            <br><br>
+            <label>Senha:</label>
+            <input type="password" id="senhaAtualizar">
+            <br><br>
+            <label>Rua:</label>
+            <input type="text" id="ruaAtualizar">
+            <br><br>
+            <label>CEP:</label>
+            <input type="text" id="cepAtualizar">
+            <br><br>
+            <label>Cidade:</label>
+            <input type="text" id="cidadeAtualizar">
+            <br><br>
+            <label>Estado:</label>
+            <input type="text" id="estadoAtualizar">
+            <br><br>
+            <label>Telefone:</label>
+            <input type="text" id="telefoneAtualizar">
+            <br><br>
+            <button onclick="atualizarDados()">Atualizar</button>
+            <button type="button" onclick="buscarDados()">Buscar</button>
+        </form>
+
+        <script src="../script/put.js"></script>
+    </center>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST</title>
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <link rel="icon" href="img/Design sem nome.png">
+        <!-- fontes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p>Floré</p>
+        <a href="../pages/cadastrados.html">GET</a>
+        <a href="../pages/put.html">PUT</a>
+        <a href="../pages/delete.html">DELETE</a>
+        <a href="../pages/cadastro.html">POST</a>
+    </header>
+    <center>
+    <h1>Cadastro</h1>
+    <form>
+        <label for="">Nome:</label>
+        <input type="text" id="nome">
+
+        <label for="">Sobrenome:</label>
+        <input type="text" id="sobrenome">
+        <br><br>
+        <label for="">CPF:</label>
+        <input type="number" id="cpf">
+
+        <label for="">Email:</label>
+        <input type="text" id="email">
+        <br><br>
+        <label for="">Senha:</label>
+        <input type="password" id="senha">
+
+        <label for="">Rua:</label>
+        <input type="text" id="rua">
+        <br><br>
+        <label for="">CEP:</label>
+        <input type="text" id="CEP">
+        <label for="">Cidade:</label>
+        <input type="text" id="cidade">
+        <br><br>
+        <label for="">Estado:</label>
+        <input type="text" id="estado">
+
+        <label for="">Telefone:</label>
+        <input type="number" id="tel">
+        <br><br>
+        <button onclick="enviarDados()">Enviar</button>
+    </form>
+    <script src="../script/post.js"></script>
+
+    <a href="login.html" id="login">Já tem uma conta? <strong>Entre aqui.</strong></a>
+
+</body>
+</html>
